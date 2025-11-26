@@ -1,3 +1,7 @@
+"""
+Configuration for the sentiment router.
+Centralized settings make it easy to tune thresholds and swap models without touching logic.
+"""
 from dataclasses import dataclass
 
 @dataclass

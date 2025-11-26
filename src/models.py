@@ -1,6 +1,8 @@
 from transformers import pipeline
 
 class SentimentModels:
+    """Loads and runs sentiment models. See config.py for model details."""
+    
     def __init__(self, light_model: str, heavy_model: str):
         print("Loading lightweight model...")
         self.light = pipeline("sentiment-analysis", model=light_model)
