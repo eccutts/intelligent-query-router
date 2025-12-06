@@ -21,7 +21,7 @@ class Responder:
         messages = [
             {
                 "role": "system",
-                "content": "You are a friendly assistant. Respond in one short sentence."
+                "content": "You are a friendly assistant. Respond in ONE short sentence only. Never exceed 15 words."
             },
             {
                 "role": "user",

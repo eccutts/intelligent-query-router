@@ -1,3 +1,16 @@
+---
+title: Sentiment Router
+emoji: 🎯
+colorFrom: blue
+colorTo: purple
+sdk: gradio
+sdk_version: "4.44.1"
+app_file: app.py
+pinned: false
+---
+
+# Intelligent Query Router
+
 # Intelligent Query Router
 
 A sentiment-aware query routing system that analyzes text, extracts entities, and generates contextual responses using multiple ML models.
@@ -44,11 +57,3 @@ python app.py
 - [ ] Add aspect-based sentiment (per-entity scoring)
 - [ ] Fine-tune on informal/slang text data
 - [ ] Swap response LLM for higher quality (GPT-4, Claude)
-```
-
-Save. Now update **requirements.txt**:
-```
-transformers>=4.30.0
-torch>=2.0.0
-spacy>=3.5.0
-huggingface_hub>=0.20.0
